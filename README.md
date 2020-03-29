@@ -5,8 +5,17 @@ Tool function to show the frustum of the camera
 
 
 ### Usage 
-DebugCamera(camera, color/*optional*/)
+`DebugCamera(camera, color/*optional*/)`
 
 
 ### Example
-DebugCamera(this.camera, [1, 0, 0])
+```
+import DebugCamera from 'debug-camera'
+
+...
+
+render() {
+  ...
+  DebugCamera(this.camera, [1, 0, 0])
+}
+```
