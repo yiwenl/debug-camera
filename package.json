@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/yiwenl/debug-camera#readme",
   "dependencies": {
-    "alfrid": "^0.3.8",
+    "alfrid": "^0.4.0",
     "gl-matrix": "^3.2.1"
   }
 }
